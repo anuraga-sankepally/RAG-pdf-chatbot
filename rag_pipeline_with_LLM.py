@@ -68,7 +68,7 @@ def ask_question(db, question, use_llm=False):
         return "\n\n".join([f"📄 Page {doc.metadata['page']+1}:\n{doc.page_content[:500]}..." for doc in docs])
 
 if __name__ == "__main__":
-    os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"  # Replace with your key
+    os.environ["HUGGINGFACEHUB_API_TOKEN"] = "my-api-key"  # Replace with your key
     
     pdf_path = "data/test_paper_2.pdf"
     if not os.path.exists(pdf_path):

@@ -1,2 +1,2 @@
 # RAG-pdf-chatbot
-PDF Q&amp;A Chatbot with RAG – A  Retrieval-Augmented Generation pipeline for querying PDF documents. Extracts text, generates embeddings, and answers questions using FLAN-T5. 
+PDF Q&amp;A Chatbot with RAG – A  Retrieval-Augmented Generation pipeline for querying PDF documents. Extracts text, generates embeddings, and answers questions using FLAN-T5. Experimental RAG pipeline for PDF question answering. Uses LangChain, HuggingFace embeddings, and FLAN-T5 for retrieval-augmented generation. Currently testing chunking strategies and prompt engineering to reduce hallucinations.  

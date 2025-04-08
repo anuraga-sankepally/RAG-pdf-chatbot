@@ -13,7 +13,6 @@ PDF Q&amp;A Chatbot with RAG – A  Retrieval-Augmented Generation pipeline for 
 - **Semantic Search** using FAISS vectorstore
 - **LLM Answers** via FLAN-T5 (or your preferred model)
 - **Hybrid Retrieval** combining keywords + vectors
-- **Secret Scanning Protected** - No accidental API leaks
 
 ## ⚡ Quick Start
 
